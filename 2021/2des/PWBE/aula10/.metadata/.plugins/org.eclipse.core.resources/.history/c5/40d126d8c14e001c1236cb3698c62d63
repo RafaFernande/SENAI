@@ -1,0 +1,24 @@
+package view;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import org.json.JSONArray;
+
+import controller.AlunoProcess;
+import controller.CantinaProcess;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class CantinaHttp extends HttpServlet {
+	
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		PrintWriter pw = resp.getWriter();
+		CantinaProcess ap = new CantinaProcess();
+		JSONArray arr = ap.readAll();
+		pw.write(arr.toString());	}
+
+}

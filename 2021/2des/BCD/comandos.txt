@@ -1,0 +1,72 @@
+----SELECT----
+https://www.devmedia.com.br/artigos/banco-de-dados
+----WHERE----
+SELECT CODIGO, NOME FROM CLIENTES WHERE CODIGO = 10
+
+SELECT CODIGO, NOME FROM CLIENTES WHERE UF = ‘RJ’
+
+SELECT CODIGO, NOME FROM CLIENTES WHERE CODIGO >= 100 AND CODIGO <= 500
+
+SELECT CODIGO, NOME FROM CLIENTES WHERE UF = ‘MG’ OR UF = ‘SP’
+
+SELECT CODIGO, NOME FROM CLIENTES WHERE UF = ‘RJ’ OR (UF = ‘SP’ AND ATIVO = ‘N’)
+
+SELECT CODIGO, NOME FROM CLIENTES WHERE (ENDERECO IS NULL) OR (CIDADE IS NULL)
+
+----ALTER----
+alter table tabela modify campo varchar(10);
+alter table tabela change primeiro_nome segundo_nome varchar(120);
+
+----LIMIT/TOP----
+select top 10 from tabela
+*Seleciona as 10 primeiras linhas da tabela
+
+select * from tabela order by id desc limit 10
+*Seleciona as 10 ultimas linhas da tabela
+
+----LIKE----
+SELECT CODIGO, NOME FROM CLIENTES WHERE NOME LIKE ‘MARIA%’
+*Retorna nomes que contem "MARIA" no início
+
+SELECT CODIGO, NOME FROM CLIENTES WHERE NOME LIKE ‘%MARIA%’
+*Retorna nomes que contem "MARIA" no meio
+
+SELECT CODIGO, NOME FROM CLIENTES WHERE UPPER(NOME) LIKE ‘MARIA %SILVA%’
+* "UPPER" para diferenciar caixa alta de caixa baixa no campo entre parênteses
+
+----ORDER BY----
+SELECT CODIGO, NOME FROM CLIENTES ORDER BY NOME
+*retorna com nome em ordem alfabetica
+
+SELECT CODIGO, NOME FROM CLIENTES ORDER BY UF, NOME
+*retorna com nome em ordem alfabetica, mas se 2 linhas tiverem o mesmo nome, ordena por UF
+*DESC(descrescente)
+
+----AGRUPAMENTO----
+SELECT CODCLIENTE, MAX(VALOR) FROM PEDIDOS GROUP BY CODCLIENTE
+*Retorna o maior valor de pedido de cada cliente
+
+----MIN/MAX----
+SELECT MAX(preco) FROM produto
+*Retorna o maior preço da coluna preco
+
+SELECT min(preco) FROM produto
+*retorna o menor preço
+
+----COUNT----
+SELECT COUNT(id) as TOTAL FROM produto
+* conta o numero de linhas na coluna "id"
+
+----SUM----
+SELECT SUM(valor) FROM tabela
+*Soma todos os valores da tabela
+
+----UPDATE----
+update tabela set campo = 'carro prata' where id= 1
+*Atualiza o campo descricao na tabela onde o id é igual a 1.
+
+----DELETE----
+DELETE FROM produtos WHERE id = 3
+*Deleta da tabela "produtos" a linha com o id 3
+
+

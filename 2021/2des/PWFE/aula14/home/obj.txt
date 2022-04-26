@@ -1,0 +1,12 @@
+let obj = {
+    "id": 101,
+    "titulo": "A Revolução dos Bichos",
+    "autor": "George Orwell",
+    "editora": "Companhia das Letras",
+    "idioma": "Português",
+    "urlImagem": "https://m.media-amazon.com/images/I/618iHJVMh4L.jpg",
+    "lancamento": "05-10-2021",
+    "numeroPaginas": 152,
+    "estoque": 10,
+    "preco": 10.3
+    }

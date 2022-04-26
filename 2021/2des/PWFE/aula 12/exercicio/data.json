@@ -1,0 +1,20 @@
+[
+    {
+        "nome":"Sexta feira 13",
+        "genero": "terror",
+        "ano" :1970,
+        "foto":"https://pt.wikipedia.org/wiki/Sexta-Feira_13_(1980)#/media/Ficheiro:Sexta_Feira_13_(1980).jpg"
+    },
+    {
+        "nome":"Invocação do mal",
+        "genero":"terror",
+        "ano":2013,
+        "foto": "https://pt.wikipedia.org/wiki/The_Conjuring#/media/Ficheiro:The_Conjuring.jpg"
+    },
+    {
+        "nome":"IT a coisa",
+        "genero":"terror",
+        "ano":2017,
+        "foto": "https://pt.wikipedia.org/wiki/It_(2017)#/media/Ficheiro:It_2017.jpg"
+    }
+]

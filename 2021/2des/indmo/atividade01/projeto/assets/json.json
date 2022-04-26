@@ -1,0 +1,38 @@
+[
+    {
+        "Nome": "Göbekli Tepe",
+        "Contrução": "Entre 8.400 a.C. a 12.000 a.C",
+        "Descrição": "O nome desta construção pode ser traduzido do turco como algo como “monte com barriga” e ela fica no sudeste da Turquia. No topo dessa colina havia um santuário cujos restos atuais são pilares de 3 a 6 metros de altura e com 10 toneladas. Eles serviam para sustentar o telhado e há ainda, animais esculpidos nesses pilares, como raposas, leões, patos, escorpiões, etc.",
+        "Imagem": "https://engenharia360.com/wp-content/uploads/2019/06/G%C3%B6bekli-Tepe-engenharia360-1-1024x683.jpg"
+    },
+    {
+        "Nome": "Tell Qaramel",
+        "Contrução": "9.670 a.C. a 11.000 a.C",
+        "Descrição": "Este atual sítio arqueológico fica ao norte da Síria e acredita-se que é a estrutura mais antiga de uma torre. Há restos de estruturas de cinco torres, a mais baixa e a mais antiga com 6 metros de diâmetro. O local fica em um ponto estratégico que já foi muito fértil e importante para o comércio.",
+        "Imagem": "https://pcma.uw.edu.pl/wp-content/uploads/2017/10/Qaram_3_gal-968x643.jpg"
+    },
+    {
+        "Nome": "Torre de Jericó",
+        "Contrução": "por volta de 8.000 aC",
+        "Descrição": "A Torre de Jericó tinha o título de torre mais antiga até Tell Qaramel ser descoberta. A estrutura de pedra possui cerca de 8,5 metros de altura e quase 9 metros de diâmetro na base e 1,5 metros no topo.",
+        "Imagem": "https://sworld.co.uk/img/img/594/photoAlbum/72872/originals/0.jpg"
+    },
+    {
+        "Nome": "Çatalhüyük ",
+        "Contrução": "Entre 5.700 a.C a 7.500 a.C",
+        "Descrição": "Çatalhüyük foi um assentamento neolíco que teve casas de tijolo cru que fica no sul da Turquia. Tais casas tinham plataformas para sentar e dormir e a entrada era feita pelo teto. É um patrimônio mundial da UNESCO e acredita-se que tenha abrigado cerca de 10.000 pessoas.",
+        "Imagem": "https://engenharia360.com/wp-content/uploads/2019/06/%C3%87atalh%C3%BCy%C3%BCk-engenharia360-1-1024x679.jpg"
+    },
+    {
+        "Nome": "Khirokitia ",
+        "Contrução": "entre 3.000 a.C. a 5.800 a.C.",
+        "Descrição": "Khirokitia (ou Choirokoitia) fica no Chipre e foi descoberto em 1934. Os restos e objetos encontrados lá contribuíram para um grande avanço da compreensão da evolução da sociedade no local.",
+        "Imagem": "https://engenharia360.com/wp-content/uploads/2019/06/Khirokitia-engenharia360-1-1-1024x563.jpg"
+    },
+    {
+        "Nome": "Cairn de Barnenez",
+        "Contrução": "4850 a.C.",
+        "Descrição": "A estrutura, uma vez coberta de terra, parece um pouco com um tubarão-martelo com laterais escalonadas, que chegam a 16 pés (5m). Na verdade, existem duas câmaras mortuárias - a primeira data de cerca de 4500 aC e é feita de dolerito, enquanto uma adição feita algumas centenas de anos depois foi construída com granito da Île de Sterec. No interior, existem 11 túmulos de passagem, embora o interior do monte de pedras não seja aberto ao público. Como o local foi usado como pedreira até a década de 1950, algumas das câmaras estão parcialmente expostas. O cairn foi restaurado entre 1954 e 1968, quando as escavações encontraram cerâmica, machados e pontas de flecha do Neolítico, bem como cerâmica da Idade do Bronze; alguns desses achados podem ser vistos no centro de visitantes. Os falantes de francês podem desfrutar de uma visita guiada de 45 minutos ao local, enquanto a documentação escrita está disponível em inglês para uma visita autoguiada de 30 minutos.",
+        "Imagem": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Barnenez_front2.jpg"
+    }
+]

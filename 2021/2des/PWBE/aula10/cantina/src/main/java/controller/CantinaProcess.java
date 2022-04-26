@@ -1,0 +1,70 @@
+package controller;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import model.Cantina;
+
+public class CantinaProcess {
+
+	private Connection con;
+	private ResultSet rs;
+
+	public CantinaProcess() {
+		this.con = new ConnectionDB().getConnection();
+	}
+
+	public JSONArray readAll() {
+		JSONArray arr = new JSONArray();
+		String query = "select * from clientes;";
+		try {
+			PreparedStatement ps = con.prepareStatement(query);
+			rs = ps.executeQuery();
+			while (rs.next()) {
+				JSONObject obj = new JSONObject();
+				obj.put("id", rs.getInt(1));
+				obj.put("nome", rs.getString(2));
+				obj.put("valor", rs.getFloat(3));
+				obj.put("status", rs.getString(4));
+				arr.put(obj);
+			}
+			con.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		return arr;
+
+	}
+
+	public boolean create(Cantina cantina) {
+		String query = "insert into clientes values(default, ?, ?, ?);";
+
+		try {
+			PreparedStatement ps = con.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
+
+			ps.setString(1, cantina.getNome());
+			ps.setFloat(2, cantina.getValor());
+			ps.setString(3, cantina.getStatus());
+
+			if (ps.executeUpdate() > 0) {
+				rs = ps.getGeneratedKeys();
+				rs.next();
+				cantina.setId(rs.getInt(1));
+				con.close();
+				return true;
+			} else {
+				con.close();
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+}

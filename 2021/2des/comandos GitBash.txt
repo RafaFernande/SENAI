@@ -1,0 +1,19 @@
+git config user.name //mostra o nome do usuário
+git config user.email //mostra o e-mail do usuário
+
+git config --global user.name "Nome do GitHub"
+git config --global user.email "e-mail"
+
+git add .
+git commit -m "descrição"
+git push
+
+git rm nome do arquivo
+
+git clone endereço do repositrio
+
+
+
+
+
+

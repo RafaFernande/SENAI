@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+D:\Rafael Faria\workspace\.metadata\.plugins\org.eclipse.jdt.core
+3105325953.index
+603271997.index
+1377358902.index
+2217037230.index
+3388194020.index
+2251524415.index
+1523559112.index

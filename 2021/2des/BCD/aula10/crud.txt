@@ -1,0 +1,6 @@
+select * from veiculos where preco > 20000.00;
+delete from veiculos where id_veiculo = 3;
+update veiculos set modelo = "Civic" where id_veiculo = 4;
+insert into veiculos values (3,"Fiesta",19000);
+select * from veiculos;
+select * from cliente order by cliente_id desc limit 10;

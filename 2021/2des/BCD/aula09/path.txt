@@ -1,0 +1,1 @@
+source D:/Rafael Faria/SENAI2021/BCD/aula09/script.sql;

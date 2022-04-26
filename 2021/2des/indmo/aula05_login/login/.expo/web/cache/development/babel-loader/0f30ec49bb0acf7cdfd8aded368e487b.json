@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function login() {}","map":{"version":3,"sources":["D:/Rafael Faria/SENAI2021/2des/indmo/aula05/login/pages/login/index.js"],"names":["login"],"mappings":"AAAA,eAAe,SAASA,KAAT,GAAgB,CAE9B","sourcesContent":["export default function login(){\r\n\r\n}"]},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,15 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.lista {
+    width: 30%;
+    height: 50%;
+    border: 1px solid;
+}
+
+.botao {
+    cursor: pointer;
+    border: none;
+}

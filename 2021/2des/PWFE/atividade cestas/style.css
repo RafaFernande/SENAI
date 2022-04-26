@@ -1,0 +1,39 @@
+.cabecalho{
+    border: 1px solid black;
+}
+
+.interacao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.select{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#entregar{
+    margin-top: 20px;
+    width: 20vw;
+}
+
+.final{
+    border: 1px solid black;
+}
+
+.linha1{
+    display: flex;
+    justify-content: space-between;
+}
