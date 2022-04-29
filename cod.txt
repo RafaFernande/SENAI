@@ -1,0 +1,26 @@
+1 delete, insert e update
+3 1 e 3
+4 caso de exclusao de registro da tabela, a chave vai modificar para nulo/vazio
+5 externo, conceitual, interno
+6 o diagrma de cassos de uso é o principal diagrama
+7 IFSP E IFSP C IFSP D IFSP C
+8 a docuemntação é consifera constraprudente--errado--
+9 clenaroom
+10 left join
+11 distinct
+12 etnograia
+13 composição
+14 100 elementos
+15 cascata
+19 9
+20 12123
+21 B depebde da A
+22: não compila
+23: contextual
+24: braisntorming
+25 14
+26 cascata
+27 o usuario do sistma devera ser identificado 12 digitos
+28 analise e desing
+29 heapSort e selectionSort
+30 antes ou depois da execução de um comando
